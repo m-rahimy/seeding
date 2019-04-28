@@ -12,6 +12,7 @@ import android.widget.TextView
 import ir.mrahimy.seeding.R
 import ir.mrahimy.seeding.db.DbManager
 import ir.mrahimy.seeding.entity.People
+import ir.mrahimy.seeding.util.Init
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -51,15 +52,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun init(db: DbManager) {
-        val list = listOf<People>(
-                People("Reza", 2),
-                People("Sadeq", 1),
-                People("Mojtaba", 1),
-                People("Asghar", 1),
-                People("Elham", 2),
-                People("Elahe", 2)
-        )
-
+        val list = Init.generateSampleList()
         list.forEach {
             db.putPeople(it)
         }
