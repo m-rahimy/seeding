@@ -1,4 +1,4 @@
-package ir.mrahimy.seedbandi
+package ir.mrahimy.seeding
 
 import android.content.ContentValues
 import android.content.Context

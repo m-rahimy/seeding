@@ -1,4 +1,4 @@
-package ir.mrahimy.seedbandi
+package ir.mrahimy.seeding
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity

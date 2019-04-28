@@ -1,4 +1,4 @@
-package ir.mrahimy.seedbandi;
+package ir.mrahimy.seeding;
 
 import org.junit.Test;
 

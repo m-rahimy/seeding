@@ -1,4 +1,4 @@
-package ir.mrahimy.seedbandi
+package ir.mrahimy.seeding
 
 data class People(
         val name: String? = null,

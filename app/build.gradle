@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "ir.mrahimy.seedbandi"
+        applicationId "ir.mrahimy.seeding"
         minSdkVersion 17
         targetSdkVersion 28
         versionCode 1
