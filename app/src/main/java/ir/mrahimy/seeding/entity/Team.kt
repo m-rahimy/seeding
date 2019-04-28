@@ -1,4 +1,4 @@
-package ir.mrahimy.seeding
+package ir.mrahimy.seeding.entity
 
 data class Team(
         val name: String? = null,

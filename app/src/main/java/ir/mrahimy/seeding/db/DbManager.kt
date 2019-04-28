@@ -1,10 +1,12 @@
-package ir.mrahimy.seeding
+package ir.mrahimy.seeding.db
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.util.Log
+import ir.mrahimy.seeding.entity.People
+import ir.mrahimy.seeding.entity.Team
 
 class DbManager(val context: Context) :
         SQLiteOpenHelper(context, "name", null, 1) {

@@ -1,9 +1,12 @@
-package ir.mrahimy.seeding
+package ir.mrahimy.seeding.view.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.widget.TextView
+import ir.mrahimy.seeding.R
+import ir.mrahimy.seeding.db.DbManager
+import ir.mrahimy.seeding.entity.Team
 import kotlinx.android.synthetic.main.activity_teams.*
 
 class TeamsActivity : AppCompatActivity() {

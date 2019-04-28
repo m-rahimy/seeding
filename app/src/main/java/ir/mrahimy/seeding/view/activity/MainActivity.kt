@@ -1,4 +1,4 @@
-package ir.mrahimy.seeding
+package ir.mrahimy.seeding.view.activity
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
@@ -9,6 +9,9 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.TextView
+import ir.mrahimy.seeding.R
+import ir.mrahimy.seeding.db.DbManager
+import ir.mrahimy.seeding.entity.People
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

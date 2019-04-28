@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="ir.mrahimy.seeding.TeamsActivity"></activity>
-        <activity android:name="ir.mrahimy.seeding.MainActivity">
+        <activity android:name="ir.mrahimy.seeding.view.activity.TeamsActivity"></activity>
+        <activity android:name="ir.mrahimy.seeding.view.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
