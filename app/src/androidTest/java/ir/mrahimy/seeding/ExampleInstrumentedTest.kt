@@ -21,12 +21,13 @@ class ExampleInstrumentedTest {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
 
-        assertEquals("ir.mrahimy.seedbandi", appContext.packageName)
+        assertEquals("ir.mrahimy.seeding", appContext.packageName)
     }
 
-    /* @Test
-    public void a(){
-        Context appContext = InstrumentationRegistry.getTargetContext();
-        val fDbManager(appContext)
-    } */
+    @Test
+    fun a() {
+        val appContext = InstrumentationRegistry.getTargetContext()
+        val db = DbManager(appContext)
+
+    }
 }

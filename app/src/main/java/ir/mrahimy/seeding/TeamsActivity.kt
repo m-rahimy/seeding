@@ -11,7 +11,7 @@ class TeamsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_teams)
-        title = "تیم ‌ها"
+        title = getString(R.string.teams)
         val db = DbManager(this)
 
         val people = db.getPeople()

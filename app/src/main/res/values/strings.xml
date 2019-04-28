@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Seeding</string>
     <string name="team_name">%1$s - %2$s</string>
+    <string name="teams">Teams</string>
 </resources>
